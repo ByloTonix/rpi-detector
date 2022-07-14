@@ -1,4 +1,4 @@
-<h1 align="center">Raspberry Pi Camera Detector, v0.4</h1>
+<h1 align="center">Raspberry Pi Camera Detector</h1>
 <h4 align="center">Raspberry Pi Camera Detector - это Python-скрипт, с помощью которого можно использовать Raspberry Pi и CSI-камеру для неё в качестве детектора движения.</h4>
 
 ## Предупреждения:
