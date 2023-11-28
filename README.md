@@ -1,42 +1,37 @@
 <h1 align="center">Raspberry Pi Camera Detector</h1>
-<h4 align="center">Raspberry Pi Camera Detector - это Python-скрипт, с помощью которого можно использовать Raspberry Pi и CSI-камеру для неё в качестве детектора движения.</h4>
+<h4 align="center">Raspberry Pi Camera Detector is a Python script with which you can use a Raspberry Pi and a CSI camera for it as a motion detector.</h4>
 
-## Предупреждения:
-- Убедитесь, что вы используете **Raspberry Pi OS Legacy** или старше. Возможна работа на Raspberry Pi OS Bullseye при использовании Legacy-версии драйвера Pycamera. С иными дистрибутивами могут наблюдаться проблемы
-- Убедитесь, что у вас установлен **Python 3.x**
+## Warnings:
+- Make sure you are using **Raspberry Pi OS Legacy (based on Buster)** or older. It is possible to work on Raspberry Pi OS Bullseye when using the Legacy version of the Pycamera driver. There may be problems with other distributions.
 
-## Требования:
-- Raspberry Pi 2B и новее
-- Любая CSI-совместимая камера
+## Requirements:
+- Raspberry Pi 2B and newer
+- Any CSI-compatible camera
 
-## Настройка:
-
-- В Raspberry Pi Configuration Tool включите работу камеры:
+## Setup:
+- In the Raspberry Pi Configuration Tool, enable the camera operation:
 
 ```sh
 sudo raspi-config
 ```
 
-- Установите необходимые зависимости:
+- Install the necessary dependencies:
 ```sh
 sudo apt install python3-opencv -y
 sudo apt install git --no-install-recommends -y
 ```
 
-- Скачайте сам скрипт:
-```sh
-git clone https://github.com/MatroCholo/rpi-detector/
+- Download the script:
+``sh
+git clone https://github.com/ByloTonix/rpi-detector/
 cd rpi-detector
 sudo chmod +x detector.py
 mkdir images
 ```
 
-## Использование:
-- После выполнения настройки перейдите в каталог со скриптом и запустите его:
+## Usage:
+- After completing the configuration, go to the directory with the script and run it:
 ```sh
 cd ~/rpi-detector
 ./detector.sh
 ```
-
-## Обратная связь:
-- Telegram: https://t.me/ByloTonix
