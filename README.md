@@ -22,7 +22,7 @@ sudo apt install git --no-install-recommends -y
 ```
 
 - Download the script:
-``sh
+```sh
 git clone https://github.com/ByloTonix/rpi-detector/
 cd rpi-detector
 sudo chmod +x detector.py
