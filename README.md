@@ -33,5 +33,5 @@ mkdir images
 - After completing the configuration, go to the directory with the script and run it:
 ```sh
 cd ~/rpi-detector
-./detector.sh
+python3 detector.py
 ```
